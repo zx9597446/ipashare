@@ -84,17 +84,6 @@ export const constantRoutes = [
     ],
   },
 
-  {
-    path: "github",
-    component: Layout,
-    children: [
-      {
-        path: "https://github.com/togettoyou/ipashare",
-        meta: {title: "项目地址", icon: "github"},
-      },
-    ],
-  },
-
   // 404 page must be placed at the end !!!
   {path: "*", redirect: "/404", hidden: true},
 ];
